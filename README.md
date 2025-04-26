@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+# PhishGuard EduZone 🛡️📧
 
-## Project info
+PhishGuard EduZone is a web-based cybersecurity education tool that teaches users how to detect phishing attacks through AI-powered simulations and real-time email analysis.
 
-**URL**: https://lovable.dev/projects/3630abe1-4937-45cd-bcf8-3d2e56ea9afc
+## 🚀 Features
 
-## How can I edit this code?
+- 🔍 **Email Analyzer**  
+  Paste email content and get a real-time phishing risk score based on:
+  - Urgent or threatening language
+  - Suspicious links or spoofed domains
+  - Requests for personal information
+  - Grammar and tone anomalies
 
-There are several ways of editing your application.
+- 🧠 **Interactive Learning via Simulations**  
+  Users can engage with realistic phishing messages generated using NLP. After analyzing, they receive:
+  - Red flag indicators
+  - Feedback on mistakes
+  - Educational tips
 
-**Use Lovable**
+- 📊 **Risk Classification**  
+  Emails are classified into:
+  - Low Risk – Likely Safe
+  - Medium Risk – Suspicious
+  - High Risk – Likely Phishing
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3630abe1-4937-45cd-bcf8-3d2e56ea9afc) and start prompting.
+## 💡 How It Works
 
-Changes made via Lovable will be committed automatically to this repo.
+The email analyzer scans the provided message and evaluates it based on a heuristic model. It checks for:
+- Keywords/phrases often used in phishing
+- Spoofed or misspelled domains
+- Social engineering tactics
+- Suspicious patterns and structures
 
-**Use your preferred IDE**
+Feedback is instantly displayed with color-coded alerts and suggestions.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- HTML, CSS, JavaScript
+- Heuristic analysis engine (custom JS logic)
+- AI prompt-ready NLP simulation (for chatbot integration)
 
-Follow these steps:
+## 📂 Folder Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3630abe1-4937-45cd-bcf8-3d2e56ea9afc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
